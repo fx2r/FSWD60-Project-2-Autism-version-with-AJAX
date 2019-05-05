@@ -1,0 +1,61 @@
+ul {
+	width: 90%;
+	display: flex;
+	justify-content: space-around;
+}
+
+.dropdown-toggle::after{
+	color: white;
+}
+
+
+.bg-custom {
+    background-color: #FF9933;
+    background: linear-gradient(45deg, #FF9933  0%, #FFB266  100%);
+    background: -moz-linear-gradient(45deg, #FF9933 0%, #FFB266  36a4 100%);
+    background: -webkit-linear-gradient(45deg, #FF9933 0%, #FFB266  100%);
+}
+
+#login {
+	margin: auto -2px auto auto;
+}
+
+
+#home {
+    color: white;
+}
+
+#uns {
+    color: white;
+}
+#aut {
+    color: white;
+}
+
+/* changes the search and admin button to a smaller size */
+.xs {
+  padding: .25rem .4rem;
+  font-size: .875rem;
+  line-height: .5;
+  border-radius: .2rem;
+}
+
+#recht {
+	color: white;
+}
+
+#wohin {
+	color: white;
+}
+
+#nützliches{
+	color: white;
+}
+
+#aktuelles {
+	color: white;
+}
+
+#forum {
+	color: white;
+}

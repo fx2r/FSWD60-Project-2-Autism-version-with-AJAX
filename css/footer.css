@@ -1,0 +1,62 @@
+body {
+	min-height: 100vh; 
+}
+
+
+/************** footer *****************/
+footer {
+    background-color: #FF9933;
+    background: linear-gradient(45deg, #FF9933  0%, #FFB266 100%);
+    background: -moz-linear-gradient(45deg, #FF9933 0%, #FFB266 36a4 100%);
+    background: -webkit-linear-gradient(45deg, #FF9933 0%, #FFB266 100%);
+}
+footer a{
+	text-decoration: none;
+	color: #F8F9FA;
+}
+footer ~a:hover { 
+    cursor: pointer;
+}
+.footer-social-link a {
+    font-size: 2em;
+}
+.short-about {
+    line-height: 2em;
+}
+.footer-nav {
+    font-size: 1em!important;
+}
+footer ul {
+    list-style: none;
+    line-height: 2em;
+}
+p.contact-info {
+    position: relative;
+    padding-left: 50px;
+}
+p.contact-info i.fa {
+    position: absolute;
+    left: 0;
+    font-size: 1em;
+    top: 5px;
+}
+
+.footer-subscription-form h4 {
+    text-transform: uppercase;
+    font-size: 1em;
+}
+input[type=submit] {
+    background: #FF737D  ;
+    text-transform: uppercase;
+}
+
+@media (max-width: 768px) {
+    p.contact-info {
+    padding-left: 0;
+    }
+    p.contact-info i.fa {
+    position: initial;
+    padding-right: 1em;
+    }
+}
+
